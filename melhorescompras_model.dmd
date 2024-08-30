@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="melhorescompras_model" id="A84AF08B-5C86-589B-899A-809C49191D47" version="3.5">
+<createdBy>danie</createdBy>
+<createdTime>2024-08-30 20:36:47 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A84AF08B-5C86-589B-899A-809C49191D47</designId>
+</OSDM_Design>

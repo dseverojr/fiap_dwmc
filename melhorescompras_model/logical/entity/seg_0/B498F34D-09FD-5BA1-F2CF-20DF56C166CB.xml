@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B498F34D-09FD-5BA1-F2CF-20DF56C166CB" name="DIM_PRODUTO">
+<createdBy>danie</createdBy>
+<createdTime>2024-08-30 20:38:05 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PRODUTO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_PRODUTO" id="8E7F7DDE-4FCF-34F1-40BF-6DAFF2763F69">
+<createdBy>danie</createdBy>
+<createdTime>2024-08-30 20:38:17 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="27E284B5-96BF-302A-87BA-0888F1657365" name="DIM_PRODUTO PK">
+<createdBy>danie</createdBy>
+<createdTime>2024-08-30 20:38:31 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E7F7DDE-4FCF-34F1-40BF-6DAFF2763F69</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
