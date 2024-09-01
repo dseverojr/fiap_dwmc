@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCE1D6E0-32D9-DF3F-97AB-2EDA0BEA3174" name="DIM_TEMPO">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-01 09:45:13 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TEMPO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_TEMPO" id="E02B0B16-4C2D-596B-D492-4B88F7D9F52E">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-01 09:45:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cada tempo possui, na entidade, um código de identificação exclusivo. Os valores são gerados automaticamente e, não possuem a possibilidade de ser alterados.			]]></commentInRDBMS>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_REPOSICAO" id="5DE84EBD-F68D-D18A-EB9A-94BCEF2503A4">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-01 09:45:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Informa a data de reposição de cada produto. Possui o formato padrão de 'dd-mm-yyyy'.			]]></commentInRDBMS>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_DIA" id="116FF385-92FA-B900-3AA7-98296A9860E1">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-01 09:47:12 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_MES" id="858656CC-AC87-6167-F573-6604F7549E57">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-01 09:47:22 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_ANO" id="A8494AA8-B16D-A209-956D-B5BA4CE987CF">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-01 09:47:32 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FL_DATA_SAZONAL" id="C2AD342C-25AF-C9A2-7E80-8388E9CABAA8">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-01 09:47:42 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0E00AE30-F62D-4AF0-E5B2-589A23F81B67" name="DIM_TEMPO PK">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-01 09:45:35 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E02B0B16-4C2D-596B-D492-4B88F7D9F52E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

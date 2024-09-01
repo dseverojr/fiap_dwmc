@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_ESTOQUE_TEMPO" directorySegmentName="seg_0" id="424B5711-4738-420C-446A-65429FDC8FB3">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-01 10:02:07 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<sourcePk>0E00AE30-F62D-4AF0-E5B2-589A23F81B67</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DCE1D6E0-32D9-DF3F-97AB-2EDA0BEA3174</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A78A8BBD-A4FD-5315-8E3F-3634D730905D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
