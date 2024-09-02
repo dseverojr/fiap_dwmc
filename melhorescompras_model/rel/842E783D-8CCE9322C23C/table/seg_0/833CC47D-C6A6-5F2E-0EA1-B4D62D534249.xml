@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="833CC47D-C6A6-5F2E-0EA1-B4D62D534249" name="DIM_CENTRO_DISTRIBUICAO">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>5AF46422-3448-E227-1467-FF161F1304E6</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<typeID>2</typeID>
+<abbreviation>CENTRO DISTRIBUICAO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_CENTRO_DISTRIBUICAO" id="830DF21C-0646-C8CF-BC42-289A72531C9C">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>32B0C7C6-0751-5A16-699F-6E0BE94CF9FB</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_CENTRO_DISTRIBUICAO" id="A39D0882-D19A-3666-C783-7165BC129796">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cada centro de distribuição possui, na entidade, um código de identificação exclusivo. Os valores são gerados automaticamente e, não possuem a possibilidade de ser alterados.			]]></commentInRDBMS>
+<generatorID>C7202FC3-AEA4-97B1-B841-F4B644144D7E</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CENTRO_DISTRIBUICAO" id="70BB8EA9-1CC0-15A0-4B68-5A113B52C483">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome correspondente sobre cada centro de distribuição.			]]></commentInRDBMS>
+<generatorID>47808E61-92C5-8399-B916-0BF30256D0BC</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_ESTADO" id="38068FAB-2256-64A3-5FB1-546B4EA70F12">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Abreviação do estado correspondente sobre cada centro de distribuição.			]]></commentInRDBMS>
+<generatorID>26180107-7EE7-8F7F-B53D-FA12254B299A</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CIDADE" id="031A2CB5-B2EC-A746-3BAC-355485DE566B">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cidade correspondente dentre spbre centro de distribuição.			]]></commentInRDBMS>
+<generatorID>FC0C131E-60A7-A033-3C59-06ED4C448FEA</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_BAIRRO" id="5E94A837-0101-660A-1057-D015F9C9572D">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Bairro correspondente sobre cada centro de distribuição.			]]></commentInRDBMS>
+<generatorID>AF9C9D59-6D83-97B9-8C4E-510E24F392AA</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_LOGRADOURO" id="46428A46-5096-C155-562F-A6874702688A">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Endereço correspondente sobre cada centro de distribuição.			]]></commentInRDBMS>
+<generatorID>413C2C60-D9E4-A0D6-79DA-4DFF8F99EB8E</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160</dataTypeSize>
+<ownDataTypeParameters>160,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86E5C92F-86C6-09AC-F7CA-9FD83C35CE40" name="DIM_CENTRO_DISTRIBUICAO_PK">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>F268874B-9546-3488-8D75-D4E92C810CD0</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="830DF21C-0646-C8CF-BC42-289A72531C9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

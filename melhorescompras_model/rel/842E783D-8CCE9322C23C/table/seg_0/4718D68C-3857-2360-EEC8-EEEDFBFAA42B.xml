@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4718D68C-3857-2360-EEC8-EEEDFBFAA42B" name="DIM_PROMOCAO">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>E1C24272-BD3A-6291-3E21-8DE16BB00F77</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<typeID>2</typeID>
+<abbreviation>PROMOCAO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_PROMOCAO" id="C717C9A7-30E2-6B18-27C4-C0593A3258E6">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>9E1AA8B1-F47F-A88E-6657-FBE118AE4189</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_PROMOCAO" id="BEACB215-0961-B27D-8A5A-59D24C435FC6">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cada promoção possui, na entidade, um código de identificação exclusivo. Os valores são gerados automaticamente e, não possuem a possibilidade de ser alterados.			]]></commentInRDBMS>
+<generatorID>796784E3-99DD-7BCA-1902-4DEC6E888720</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_PROMOCAO" id="73B9C21C-8D40-11BA-9E1A-92B5077ADEC3">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome correspondente sobre cada promoção a ser executada.			]]></commentInRDBMS>
+<generatorID>D96BB038-55EF-024D-624D-9FC3233CA317</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BF2E6BF-CF4D-B7D9-D853-091D1F15500E" name="DIM_PROMOCAO_PK">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>C1EE31EF-F592-BF3A-A1BF-664E537807B0</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C717C9A7-30E2-6B18-27C4-C0593A3258E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BB1A91F8-8B94-AC50-F059-CABDDCD432BE" containerWithKeyObject="F3580CFF-200D-4097-322C-EB31D4E43C67" localFKIndex="84D3A8D2-095A-1209-18AC-835A3131C305" name="FK_PEDIDO_ESTOQUE">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>383FB00A-2078-A992-463D-9500616A7542</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<referredTableLongName>DIM_PEDIDO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2B236FEA-A197-9FAB-C328-AA3EAD492751</referredTableID>
+<keyObject>3EFD8219-7A45-BE4E-D3E6-AE89CB79A118</keyObject>
+<referredKeyID>3EFD8219-7A45-BE4E-D3E6-AE89CB79A118</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_PEDIDO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

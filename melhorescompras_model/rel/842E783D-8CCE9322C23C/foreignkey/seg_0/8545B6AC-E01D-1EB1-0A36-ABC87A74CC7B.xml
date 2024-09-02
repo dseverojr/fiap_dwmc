@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8545B6AC-E01D-1EB1-0A36-ABC87A74CC7B" containerWithKeyObject="F3580CFF-200D-4097-322C-EB31D4E43C67" localFKIndex="216E438F-83A9-2875-0AF9-C49D968868E4" name="FK_ESTOQUE_PROMOCAO">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>D023F88D-6A90-CE96-E4B1-7F0900C03FDB</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<referredTableLongName>DIM_PROMOCAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4718D68C-3857-2360-EEC8-EEEDFBFAA42B</referredTableID>
+<keyObject>7BF2E6BF-CF4D-B7D9-D853-091D1F15500E</keyObject>
+<referredKeyID>7BF2E6BF-CF4D-B7D9-D853-091D1F15500E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_PROMOCAO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

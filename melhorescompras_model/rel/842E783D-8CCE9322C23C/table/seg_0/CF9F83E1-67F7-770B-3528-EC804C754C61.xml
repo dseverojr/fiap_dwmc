@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF9F83E1-67F7-770B-3528-EC804C754C61" name="DIM_FORNECEDOR">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>E9C1271E-9ACC-79C3-EBBE-A9F132E402A8</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<typeID>2</typeID>
+<abbreviation>FORNECEDOR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_FORNECEDOR" id="324434A9-5BEB-1ABE-102F-046831B5FB92">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>BBF6D3C9-5BE9-8D59-F71F-0F1000D73EE3</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_FORNECEDOR" id="D6EF8FC0-5220-F87D-A137-5A3C0A78EDE8">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cada fornecedor possui, na entidade, um código de identificação exclusivo. Os valores são gerados automaticamente e, não possuem a possibilidade de ser alterados.			]]></commentInRDBMS>
+<generatorID>B2B9496B-0B51-2609-0668-75806BA7EE0A</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_FORNECEDOR" id="41E82977-0890-F6AC-1E95-7A1A081BE6AA">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome correspondente sobre cada empresa fornecedora.			]]></commentInRDBMS>
+<generatorID>5FD8082D-F606-F74D-181F-86CFFE37AB27</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SG_ESTADO" id="C3C9A0AB-5DD2-7315-BD2C-F56E0AB210E3">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Abreviação do estado correspondente sobre cada empresa fornecedora.			]]></commentInRDBMS>
+<generatorID>E383CC55-69A4-3DC3-9C18-5D5F30542E4B</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CIDADE" id="481A4FB7-F6E1-A4E8-90EE-B4E6328BA1CE">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>0733AC08-80B2-D467-7435-88144CADFA81</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_BAIRRO" id="D465ECF4-CFCC-6FF2-5BDD-C1E0B2950145">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do bairro correspondente sobre cada empresa fornecedora.			]]></commentInRDBMS>
+<generatorID>D5390374-41A7-479B-49C8-7F0200236184</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF6F862A-9C45-8316-3737-1944CA112590" name="DIM_FORNECEDOR_PK">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>991663E6-7F66-A23D-FA14-615E0F211841</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="324434A9-5BEB-1ABE-102F-046831B5FB92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

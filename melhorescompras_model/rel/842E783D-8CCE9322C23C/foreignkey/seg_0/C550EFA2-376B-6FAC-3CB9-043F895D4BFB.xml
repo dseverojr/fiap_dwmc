@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C550EFA2-376B-6FAC-3CB9-043F895D4BFB" containerWithKeyObject="F3580CFF-200D-4097-322C-EB31D4E43C67" localFKIndex="D1137277-C515-555E-6D97-CD672DABA801" name="FK_ESTOQUE_CATEGORIA">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>EC1EC90A-0C57-3B57-D9BB-A479067AAE01</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<referredTableLongName>DIM_CATEGORIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D825EC67-225F-C821-989B-E91D9997164E</referredTableID>
+<keyObject>52F542E1-8B74-8B9D-78D4-9D63BFF517D4</keyObject>
+<referredKeyID>52F542E1-8B74-8B9D-78D4-9D63BFF517D4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_CATEGORIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CC05B66A-B1F0-9B83-EB73-C482E170BEE1" containerWithKeyObject="F3580CFF-200D-4097-322C-EB31D4E43C67" localFKIndex="A38269A3-DCF3-9778-9023-10348545C461" name="FK_ESTOQUE_TEMPO">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>424B5711-4738-420C-446A-65429FDC8FB3</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<referredTableLongName>DIM_TEMPO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>79AC436A-E03E-FBCC-867C-45AD1DC14239</referredTableID>
+<keyObject>7D60021F-12E5-9446-587E-D4DC483FFAE3</keyObject>
+<referredKeyID>7D60021F-12E5-9446-587E-D4DC483FFAE3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_TEMPO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

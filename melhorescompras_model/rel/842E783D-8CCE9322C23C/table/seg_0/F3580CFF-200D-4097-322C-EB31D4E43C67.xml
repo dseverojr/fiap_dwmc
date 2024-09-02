@@ -1,0 +1,355 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3580CFF-200D-4097-322C-EB31D4E43C67" name="FTO_ESTOQUE">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>A78A8BBD-A4FD-5315-8E3F-3634D730905D</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<typeID>1</typeID>
+<abbreviation>ESTOQUE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_TEMPO" id="6BB98473-A226-7E15-F44B-D610A24C76D5">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>AA56A4DB-5AC0-8818-CBB1-2F44B093EFCD</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC05B66A-B1F0-9B83-EB73-C482E170BEE1" referredColumn="DF3F48DD-AECB-40CB-4B27-2A3B0EB5FC7A"/>
+</associations>
+</Column>
+<Column name="SK_PROMOCAO" id="63557E04-85E0-751F-DD22-E7EF8EF3DA79">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>C8CDE584-85E4-4A1E-1F74-4EA184EA2556</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8545B6AC-E01D-1EB1-0A36-ABC87A74CC7B" referredColumn="C717C9A7-30E2-6B18-27C4-C0593A3258E6"/>
+</associations>
+</Column>
+<Column name="SK_CATEGORIA" id="EC8E35D0-DCC0-FACB-553D-045219CC4B09">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>E972820D-C35D-936B-7A63-105AED2B1BA6</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C550EFA2-376B-6FAC-3CB9-043F895D4BFB" referredColumn="53871CC0-C38A-84C6-7340-9BA76CA41CEE"/>
+</associations>
+</Column>
+<Column name="SK_CENTRO_DISTRIBUICAO" id="348582D5-A24B-C480-1D41-589F52E5C9C8">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>ECDDD3B5-B529-6722-F5E6-8A0A198287DA</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF4FD8E5-A869-0B82-A163-2B092DA4C283" referredColumn="830DF21C-0646-C8CF-BC42-289A72531C9C"/>
+</associations>
+</Column>
+<Column name="SK_FORNECEDOR" id="77A6C05C-D17A-4618-60A2-BF1C04DEF761">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>6EA55C6A-5F61-7F33-1898-E6B10981A1A5</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="375503CF-C3CA-62A9-E7B7-7EC3F2B05215" referredColumn="324434A9-5BEB-1ABE-102F-046831B5FB92"/>
+</associations>
+</Column>
+<Column name="QT_ESTOQUE_REPOSTO" id="714AD27F-1A86-C13E-29E8-6F8814532BDA">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>638DA12A-FF02-A9E3-6E68-948DBB92C418</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_TEMPO_MEDIO_REPOSICAO" id="FAE1C365-C9CC-C70E-0250-C06F6B8560E9">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>977221CB-0F46-9832-833A-05F1F6E43623</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QT_ESTOQUE" id="B3629216-4FD1-3653-5953-87D7A59450FD">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>F9CACC35-256A-4DC9-EC31-1C877435AB27</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_TAXA_ROTATIVIDADE_ESTOQUE" id="1DA1EE80-1713-A9ED-DCF6-04B6FE5F414D">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>4972522D-EBAE-1AF5-9CC8-C8BB9834939B</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_ESTOQUE" id="664F308E-BAB4-4DDE-C480-BB15C26FE520">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>1D90A8B8-492B-6E58-A72A-21DD08DA7266</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_VOLUME_VENDAS" id="92374FC3-C583-CD06-8AB5-340EFFCA76B6">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>D4324F8E-242D-F5DC-464F-5249413F0F5C</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_IMPACTO_MONET_PROMOCOES" id="62348893-2189-9311-CC65-FB58A7C54C7F">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>EC4C09D5-9EBD-B74E-E316-7B64FDB1F85D</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SK_PEDIDO" id="79DF0369-F386-90AE-C7FE-FBE67BBBA320">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>2BF728B9-041C-F05D-DCC6-DAF47946599B</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB1A91F8-8B94-AC50-F059-CABDDCD432BE" referredColumn="8D961225-5EF0-B08C-8F69-29389C1A5A13"/>
+</associations>
+</Column>
+<Column name="SK_ITEM_PEDIDO" id="E87BC1D6-10B2-CD4C-4D5A-6599C26D2D7E">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>A7E9567A-F850-D89B-8CD9-E73C3564CDCD</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AD211E0-70A2-DA5B-B194-9A8D92FDE08D" referredColumn="4BB35EA5-C1D7-4240-0FFE-F418BC06C179"/>
+</associations>
+</Column>
+<Column name="SK_CLIENTE" id="AE43FF8C-73F2-E255-E38C-2EB5CB00D049">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>D916D36D-1B6D-54E6-97E0-B91CF2AE7AE0</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3D359BB-7DDE-8319-5EE8-5DFEC71840C9" referredColumn="3355B879-DA7B-7181-F64B-87492F2BE7E1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E90B70F3-538D-AC72-368B-EB2D53F3B26F" name="FTO_ESTOQUE_PK">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>B6EE4D0E-FC43-6D11-0261-8443DA8D1576</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BB98473-A226-7E15-F44B-D610A24C76D5"/>
+<colUsage columnID="63557E04-85E0-751F-DD22-E7EF8EF3DA79"/>
+<colUsage columnID="EC8E35D0-DCC0-FACB-553D-045219CC4B09"/>
+<colUsage columnID="348582D5-A24B-C480-1D41-589F52E5C9C8"/>
+<colUsage columnID="77A6C05C-D17A-4618-60A2-BF1C04DEF761"/>
+<colUsage columnID="79DF0369-F386-90AE-C7FE-FBE67BBBA320"/>
+<colUsage columnID="E87BC1D6-10B2-CD4C-4D5A-6599C26D2D7E"/>
+<colUsage columnID="AE43FF8C-73F2-E255-E38C-2EB5CB00D049"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CB43685-E9CE-C7AD-C48E-96E85481B891" name="FK_CLIENTE_ESTOQUE">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>4DA25E72-A1F3-FF3D-E0AF-8D783C8BAAED</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE43FF8C-73F2-E255-E38C-2EB5CB00D049"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1137277-C515-555E-6D97-CD672DABA801" name="FK_ESTOQUE_CATEGORIA">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>EC1EC90A-0C57-3B57-D9BB-A479067AAE01</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC8E35D0-DCC0-FACB-553D-045219CC4B09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95F22031-DF96-DF4A-F805-AC1EE5212F44" name="FK_ESTOQUE_CENTRO_DISTRIBUICAO">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>195C147C-C4FB-5885-EE53-A4F3A52A41C0</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="348582D5-A24B-C480-1D41-589F52E5C9C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5160154-D7DB-65C1-B458-91503571FF69" name="FK_ESTOQUE_PRODUTO">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>92756DAE-E071-FB7B-360F-2CBDAEA59894</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="216E438F-83A9-2875-0AF9-C49D968868E4" name="FK_ESTOQUE_PROMOCAO">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>D023F88D-6A90-CE96-E4B1-7F0900C03FDB</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63557E04-85E0-751F-DD22-E7EF8EF3DA79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A38269A3-DCF3-9778-9023-10348545C461" name="FK_ESTOQUE_TEMPO">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>424B5711-4738-420C-446A-65429FDC8FB3</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BB98473-A226-7E15-F44B-D610A24C76D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7E61A59-22B0-1843-ABF8-8F0250017A67" name="FK_FORNECEDOR_ESTOQUE">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>695D720C-9044-BD29-984F-15A0BE43AC21</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77A6C05C-D17A-4618-60A2-BF1C04DEF761"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5130D932-F302-643D-348E-EB00D54BE103" name="FK_ITEM_PEDIDO_ESTOQUE">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>C9ED514F-9774-4213-4AE4-D01D4AA52457</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E87BC1D6-10B2-CD4C-4D5A-6599C26D2D7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84D3A8D2-095A-1209-18AC-835A3131C305" name="FK_PEDIDO_ESTOQUE">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>383FB00A-2078-A992-463D-9500616A7542</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79DF0369-F386-90AE-C7FE-FBE67BBBA320"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

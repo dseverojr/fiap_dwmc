@@ -1,0 +1,192 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECAE4E3A-0E0D-C3BC-0427-D90004557E7C" name="DIM_PRODUTO">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>B498F34D-09FD-5BA1-F2CF-20DF56C166CB</generatorID>
+<notes><![CDATA[TABELA: DIM_PRODUTO			APELIDO: PRODUTO											
+CONTEÚDO: Contém informações detalhadas sobre cada produto comercializado.														
+INTERESSADOS: Equipe de Vendas, Analistas de Dados, Marketing.														
+RETENÇÃO: Dados retidos enquanto o produto estiver ativo no catálogo.														
+POLÍTICA DE LIMPEZA DE DADOS: Limpeza após 1 ano de inatividade do produto.														
+POLÍTICA DE BACKUP: Backup segue a rotina regular do sistema.														]]></notes>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<typeID>2</typeID>
+<abbreviation>PRODUTO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_PRODUTO" id="ED1EE42F-5598-45E1-CDE4-BDE4AF9079A3">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Chave primária que garante a unicidade dos registros na tabela. Essencial para identificar cada produto de forma exclusiva.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<generatorID>8E7F7DDE-4FCF-34F1-40BF-6DAFF2763F69</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_PRODUTO" id="D1C61EBD-5B76-A9BF-ED40-142997C8CF8C">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[identificador único do registro de estoque. É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<generatorID>6AA00F13-9BDC-95D3-7DAC-E39E40C3003D</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_PRODUTO" id="7A540AB2-18EC-A3CD-6AB4-D8679160A768">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do produto, utilizado para identificação e marketing.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<generatorID>D901B9D6-D871-49C9-FC2D-3EC0928BC499</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CATEGORIA_PRODUTO" id="9253E6C9-9042-94D0-E256-5E3DE48BB31F">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Categoria à qual o produto pertence, importante para organização e análise de mercado.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<generatorID>4FA1338D-DDCE-EE4C-DC74-64B6EE180F5F</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_UNITARIO" id="E62D74F7-DA31-8E20-0D20-E09A9F0C0A09">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Preço pelo qual o produto é vendido, fundamental para análises de receita e lucro.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<generatorID>9925FB2B-F1A6-DD6B-8233-23EBD39EABC9</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_LANCAMENTO" id="1BEEA4A9-F21C-4FBC-792C-6C339ED88D91">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data em que o produto foi lançado, útil para análise de ciclos de vida de produtos.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<generatorID>5E447D0E-4438-296D-3D05-5B085110AD7F</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_PRODUTO" id="1FD0690D-6366-DB65-11ED-872DF3499055">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indica se o produto está ativo ou descontinuado, importante para a gestão de catálogo.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<generatorID>D216B94A-31AE-C639-B2A4-F6C05D75F9E7</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_TIPO_PRODUTO" id="30A73C49-D974-A19F-F446-09744EB1CEDF">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo específico ou subcategoria do produto, usado para segmentação e análise detalhada.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<generatorID>790B76E6-0293-FF99-8967-8E7B12095F67</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_CUSTO_VENDA" id="473AF073-0D3D-AFAB-6375-B812E168D8A8">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Custo de venda do produto, utilizado para cálculos de margem de lucro e análise financeira.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<generatorID>D10D4EAF-AFDF-2305-ED9B-D98332AC99A3</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_COR_PRODUTO" id="FC7FD085-18DE-B438-F2AD-A83A88BB74EE">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>7880471E-C2F2-179E-9584-3671EAE4BFD1</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_FORNECEDOR" id="DE79ADF4-A6A4-6CD9-F8CD-D502AA41FDE5">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador do fornecedor.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<generatorID>D2220FBE-5E20-576F-A006-1F7D550C4CFB</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_DIMENSOES_FISICAS" id="028BF9ED-97F5-5B86-F328-38BB6C956A28">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador do fornecedor do produto, necessário para relacionar com dados de fornecimento e custos.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<generatorID>ABBE62C4-5E22-C956-8A16-E50F5ECCD342</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6F0F9F7-63AC-FF31-267F-E855DDFC52C3" name="DIM_PRODUTO_PK">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:40:01 UTC</createdTime>
+<generatorID>27E284B5-96BF-302A-87BA-0888F1657365</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>
