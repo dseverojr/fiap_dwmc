@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9B44567-0F71-B7FB-E230-BDEC25B8155D" name="DIM_PEDIDO">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 20:32:11 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PEDIDO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_PEDIDO" id="797B169A-BB61-7AD3-875E-99FBB9CDA116">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 20:58:57 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_PEDIDO" id="3AF991AD-CB3B-2427-86D8-01C93A4308B7">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 20:59:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cada pedido possui, na entidade, um código de identificação exclusivo. Os valores são gerados automaticamente e, não possuem a possibilidade de ser alterados.			]]></commentInRDBMS>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_PEDIDO" id="D17B8268-99CF-75A4-9F21-AFBC425F74C6">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 20:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data em que o pedido foi gerado. Possui o valor padrão de 'DD-MM-YYY'.			]]></commentInRDBMS>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CLIENTE" id="CDE00E2E-03ED-CF72-539B-9FB24C757CC0">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 20:59:29 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160</dataTypeSize>
+<ownDataTypeParameters>160,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CENTRO_DISTRIBUICAO" id="3DECB49C-1360-5CA9-96CD-25FF627F3B07">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:00:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Origem na tabela MC_CENTRO_DISTRIBUICAO, carregado a partir do campo NM_LOJA para o pedido de venda]]></commentInRDBMS>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_TOTAL_PEDIDO" id="BB6E5C4E-1C7D-3B13-5AF9-BDD74B6701C7">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:01:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor total, em reais, do pedido requerido pelo cliente. 			]]></commentInRDBMS>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6C1A78CD-BA5C-BBAF-1625-4C2E9BCDC744" name="DIM_PEDIDO PK">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 20:59:09 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>797B169A-BB61-7AD3-875E-99FBB9CDA116</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

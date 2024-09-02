@@ -195,6 +195,36 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
+<Attribute name="SK_PEDIDO" id="2BF728B9-041C-F05D-DCC6-DAF47946599B">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:02:42 UTC</createdTime>
+<generatorID>383FB00A-2078-A992-463D-9500616A7542</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<referedAttribute>797B169A-BB61-7AD3-875E-99FBB9CDA116</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_ITEM_PEDIDO" id="A7E9567A-F850-D89B-8CD9-E73C3564CDCD">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 21:22:13 UTC</createdTime>
+<generatorID>C9ED514F-9774-4213-4AE4-D01D4AA52457</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<referedAttribute>B26DB0B6-7462-2E75-77A3-82E355D79697</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B6EE4D0E-FC43-6D11-0261-8443DA8D1576" name="FTO_ESTOQUE PK">
@@ -211,6 +241,8 @@
 <attributeRef>E972820D-C35D-936B-7A63-105AED2B1BA6</attributeRef>
 <attributeRef>ECDDD3B5-B529-6722-F5E6-8A0A198287DA</attributeRef>
 <attributeRef>6EA55C6A-5F61-7F33-1898-E6B10981A1A5</attributeRef>
+<attributeRef>2BF728B9-041C-F05D-DCC6-DAF47946599B</attributeRef>
+<attributeRef>A7E9567A-F850-D89B-8CD9-E73C3564CDCD</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
