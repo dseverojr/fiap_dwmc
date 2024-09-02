@@ -77,6 +77,21 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="SK_FORNECEDOR" id="6EA55C6A-5F61-7F33-1898-E6B10981A1A5">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 20:29:16 UTC</createdTime>
+<generatorID>695D720C-9044-BD29-984F-15A0BE43AC21</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<referedAttribute>BBF6D3C9-5BE9-8D59-F71F-0F1000D73EE3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="QT_ESTOQUE_REPOSTO" id="638DA12A-FF02-A9E3-6E68-948DBB92C418">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 09:53:02 UTC</createdTime>
@@ -195,6 +210,7 @@
 <attributeRef>C8CDE584-85E4-4A1E-1F74-4EA184EA2556</attributeRef>
 <attributeRef>E972820D-C35D-936B-7A63-105AED2B1BA6</attributeRef>
 <attributeRef>ECDDD3B5-B529-6722-F5E6-8A0A198287DA</attributeRef>
+<attributeRef>6EA55C6A-5F61-7F33-1898-E6B10981A1A5</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

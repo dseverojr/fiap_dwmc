@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9C1271E-9ACC-79C3-EBBE-A9F132E402A8" name="DIM_FORNECEDOR">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 18:35:24 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>FORNECEDOR</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_FORNECEDOR" id="BBF6D3C9-5BE9-8D59-F71F-0F1000D73EE3">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 18:40:03 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_FORNECEDOR" id="B2B9496B-0B51-2609-0668-75806BA7EE0A">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 18:40:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cada fornecedor possui, na entidade, um código de identificação exclusivo. Os valores são gerados automaticamente e, não possuem a possibilidade de ser alterados.			]]></commentInRDBMS>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_FORNECEDOR" id="5FD8082D-F606-F74D-181F-86CFFE37AB27">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 18:40:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome correspondente sobre cada empresa fornecedora.			]]></commentInRDBMS>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SG_ESTADO" id="E383CC55-69A4-3DC3-9C18-5D5F30542E4B">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 18:42:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Abreviação do estado correspondente sobre cada empresa fornecedora.			]]></commentInRDBMS>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CIDADE" id="0733AC08-80B2-D467-7435-88144CADFA81">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 18:43:04 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BAIRRO" id="D5390374-41A7-479B-49C8-7F0200236184">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 20:28:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do bairro correspondente sobre cada empresa fornecedora.			]]></commentInRDBMS>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="991663E6-7F66-A23D-FA14-615E0F211841" name="DIM_FORNECEDOR PK">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-02 20:28:54 UTC</createdTime>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BBF6D3C9-5BE9-8D59-F71F-0F1000D73EE3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
