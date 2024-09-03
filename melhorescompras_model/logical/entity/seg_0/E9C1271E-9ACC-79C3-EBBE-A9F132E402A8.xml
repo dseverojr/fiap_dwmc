@@ -20,6 +20,7 @@
 <Attribute name="SK_FORNECEDOR" id="BBF6D3C9-5BE9-8D59-F71F-0F1000D73EE3">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 18:40:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cada fornecedor possui, na entidade, um código de identificação exclusivo. Os valores são gerados automaticamente e, não possuem a possibilidade de ser alterados.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -75,6 +76,7 @@
 <Attribute name="NM_CIDADE" id="0733AC08-80B2-D467-7435-88144CADFA81">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 18:43:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da cidade correspondente sobre cada cidade.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>

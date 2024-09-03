@@ -20,6 +20,7 @@
 <Attribute name="SK_PROMOCAO" id="9E1AA8B1-F47F-A88E-6657-FBE118AE4189">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 09:49:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cada promoção possui, na entidade, um código de identificação exclusivo. Os valores são gerados automaticamente e, não possuem a possibilidade de ser alterados.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -33,7 +34,7 @@
 <Attribute name="CD_PROMOCAO" id="796784E3-99DD-7BCA-1902-4DEC6E888720">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 09:49:50 UTC</createdTime>
-<commentInRDBMS><![CDATA[Cada promoção possui, na entidade, um código de identificação exclusivo. Os valores são gerados automaticamente e, não possuem a possibilidade de ser alterados.			]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Código com uma identificação única para cada promoção.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>

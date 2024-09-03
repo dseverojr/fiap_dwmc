@@ -20,6 +20,7 @@
 <Attribute name="SK_CLIENTE" id="0EB2477A-6587-FB81-8841-5D64D5E95581">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 21:29:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cada cliente possui, na entidade, um código de identificação exclusivo. Os valores são gerados automaticamente e, não possuem a possibilidade de ser alterados.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -33,7 +34,7 @@
 <Attribute name="CD_CLIENTE" id="982A40D7-29DB-08FC-18D3-A66E5FAD8712">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 21:29:18 UTC</createdTime>
-<commentInRDBMS><![CDATA[Cada cliente possui, na entidade, um código de identificação exclusivo. Os valores são gerados automaticamente e, não possuem a possibilidade de ser alterados.			]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Código com uma identificação única para cada item do cliente.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -47,6 +48,7 @@
 <Attribute name="NM_CLIENTE" id="723BEAF1-C5CE-2D72-F2C1-4D4AC6CA4CBD">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 21:29:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome correspondente a cada cliente.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -60,6 +62,7 @@
 <Attribute name="NM_BAIRRO" id="9A197124-264F-11DC-F792-E11012B881AC">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 21:30:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome correspondente ao bairro em que se encontra cada cliente.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -73,6 +76,7 @@
 <Attribute name="NM_CIDADE" id="9FA1FC42-2AE1-C326-FEF8-E36B08BDC5DF">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 21:35:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome correspondente a cidade em que encontra cada cliente.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -86,6 +90,7 @@
 <Attribute name="SG_ESTADO" id="3C175890-CA25-E3EF-04E6-6BF43B34DDD7">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 21:35:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Abreviação do estado em que se encontra cada cliente. É um atributo opcional.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>

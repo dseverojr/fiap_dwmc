@@ -19,6 +19,7 @@
 <Attribute name="SK_CATEGORIA" id="37861D30-7FC5-9332-CB01-F09B9FEE9F8C">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 09:37:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cada categoria possui, na entidade, um código de identificação exclusivo. Os valores são gerados automaticamente, e não possuem a possibilidade de ser alterados.   			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -32,7 +33,7 @@
 <Attribute name="CD_CATEGORIA" id="BB5D984E-C8FE-455E-F216-FC19724318D2">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 09:37:50 UTC</createdTime>
-<commentInRDBMS><![CDATA[Cada categoria possui, na entidade, um código de identificação exclusivo. Os valores são gerados automaticamente e, não possuem a possibilidade de ser alterados.			]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Código com uma identificação única para cada categoria.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -46,7 +47,7 @@
 <Attribute name="NM_CATEGORIA" id="F4885451-A11D-046F-F6C1-5B844378D08D">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 09:38:09 UTC</createdTime>
-<commentInRDBMS><![CDATA[Nome correspondente de cada categoria vinculada aos produtos.			]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Nome correspondente à cada categoria vinculada aos produtos.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>

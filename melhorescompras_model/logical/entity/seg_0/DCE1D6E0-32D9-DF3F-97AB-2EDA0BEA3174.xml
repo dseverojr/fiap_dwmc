@@ -47,6 +47,7 @@
 <Attribute name="NR_DIA" id="116FF385-92FA-B900-3AA7-98296A9860E1">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 09:47:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Informa o dia do fato estoque. Possui o formato padrão de 'dd'.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -60,6 +61,7 @@
 <Attribute name="NR_MES" id="858656CC-AC87-6167-F573-6604F7549E57">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 09:47:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Informa o mês do fato estoque. Possui o formato de 'mm'.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -73,6 +75,7 @@
 <Attribute name="NR_ANO" id="A8494AA8-B16D-A209-956D-B5BA4CE987CF">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 09:47:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Informa o ano do fato estoque. Possui o formato de 'yyyy'.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -86,6 +89,7 @@
 <Attribute name="FL_DATA_SAZONAL" id="C2AD342C-25AF-C9A2-7E80-8388E9CABAA8">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 09:47:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Informa, através dos caracteres 's' ou 'n', se os produtos fazem parte de alguma data sazonal.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>

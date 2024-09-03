@@ -20,6 +20,7 @@
 <Attribute name="SK_ITEM_PEDIDO" id="B26DB0B6-7462-2E75-77A3-82E355D79697">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 21:16:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cada item do pedido possui, na entidade, um código de identificação exclusivo. Os valores são gerados automaticamente e, não possuem a possibilidade de ser alterados.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -33,6 +34,7 @@
 <Attribute name="CD_ITEM_PEDIDO" id="B2B98FFC-B354-6A03-C2CC-F08986E80BE5">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 21:16:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código com uma identificação única para cada item do produto.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -40,12 +42,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CD_PRODUTO" id="F4DF393A-A86F-2C8B-749F-60E787FAB43E">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 21:17:22 UTC</createdTime>
-<commentInRDBMS><![CDATA[Contem referencia ao atributo cd_produto com origem na tabela MC_PRODUTO do banco de dados transacional do Melhores Compras]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Código com uma identificação única para cada produto.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -59,7 +62,7 @@
 <Attribute name="NM_PRODUTO" id="40905BDC-22EB-9CDE-71F8-8D01C1F2279A">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 21:18:45 UTC</createdTime>
-<commentInRDBMS><![CDATA[Contem referencia ao atributo cd_produto com origem na tabela DS_PRODUTO do banco de dados transacional do Melhores Compras]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Nome correspondente a cada produto.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -88,7 +91,7 @@
 <Attribute name="VL_UNITARIO" id="2709BF83-5D21-B08C-F1BE-91D699A93550">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 21:21:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[valor unitário, em reais, de cada item do pedido.			]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Valor unitário, em reais, de cada item do pedido.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>

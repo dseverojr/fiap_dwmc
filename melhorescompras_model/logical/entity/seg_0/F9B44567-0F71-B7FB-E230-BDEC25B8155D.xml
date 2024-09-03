@@ -20,6 +20,7 @@
 <Attribute name="SK_PEDIDO" id="797B169A-BB61-7AD3-875E-99FBB9CDA116">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 20:58:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cada pedido possui, na entidade, um código de identificação exclusivo. Os valores são gerados automaticamente e, não possuem a possibilidade de ser alterados.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -33,7 +34,7 @@
 <Attribute name="CD_PEDIDO" id="3AF991AD-CB3B-2427-86D8-01C93A4308B7">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 20:59:17 UTC</createdTime>
-<commentInRDBMS><![CDATA[Cada pedido possui, na entidade, um código de identificação exclusivo. Os valores são gerados automaticamente e, não possuem a possibilidade de ser alterados.			]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Código com uma identificação única para cada pedido.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -60,6 +61,7 @@
 <Attribute name="NM_CLIENTE" id="CDE00E2E-03ED-CF72-539B-9FB24C757CC0">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 20:59:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome correspondente a cada cliente.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -73,7 +75,7 @@
 <Attribute name="NM_CENTRO_DISTRIBUICAO" id="3DECB49C-1360-5CA9-96CD-25FF627F3B07">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 21:00:13 UTC</createdTime>
-<commentInRDBMS><![CDATA[Origem na tabela MC_CENTRO_DISTRIBUICAO, carregado a partir do campo NM_LOJA para o pedido de venda]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Nome correspondente a cada centro de distribuição.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>

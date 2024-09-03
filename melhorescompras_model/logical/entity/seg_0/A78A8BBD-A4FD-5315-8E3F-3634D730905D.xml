@@ -20,6 +20,7 @@
 <Attribute name="SK_TEMPO" id="AA56A4DB-5AC0-8818-CBB1-2F44B093EFCD">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 10:02:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Surrogate key utilizada para conectar a entidade TEMPO à entidade FATO ESTOQUE.			]]></commentInRDBMS>
 <generatorID>424B5711-4738-420C-446A-65429FDC8FB3</generatorID>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
@@ -35,6 +36,7 @@
 <Attribute name="SK_PROMOCAO" id="C8CDE584-85E4-4A1E-1F74-4EA184EA2556">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 10:02:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[Surrogate key utilizada para conectar a entidade PROMOÇÃO à entidade FATO ESTOQUE.			]]></commentInRDBMS>
 <generatorID>D023F88D-6A90-CE96-E4B1-7F0900C03FDB</generatorID>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
@@ -50,6 +52,7 @@
 <Attribute name="SK_CATEGORIA" id="E972820D-C35D-936B-7A63-105AED2B1BA6">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 10:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Surrogate key utilizada para conectar a entidade CATEGORIA à entidade FATO ESTOQUE.			]]></commentInRDBMS>
 <generatorID>EC1EC90A-0C57-3B57-D9BB-A479067AAE01</generatorID>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
@@ -65,6 +68,7 @@
 <Attribute name="SK_CENTRO_DISTRIBUICAO" id="ECDDD3B5-B529-6722-F5E6-8A0A198287DA">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 10:03:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[Surrogate key utilizada para conectar a entidade CENTRO DE DISTRIBUIÇÃO à entidade FATO ESTOQUE.			]]></commentInRDBMS>
 <generatorID>195C147C-C4FB-5885-EE53-A4F3A52A41C0</generatorID>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
@@ -80,6 +84,7 @@
 <Attribute name="SK_FORNECEDOR" id="6EA55C6A-5F61-7F33-1898-E6B10981A1A5">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 20:29:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Surrogate key utilizada para conectar a entidade FORNECEDOR à entidade FATO ESTOQUE.			]]></commentInRDBMS>
 <generatorID>695D720C-9044-BD29-984F-15A0BE43AC21</generatorID>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
@@ -92,112 +97,10 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="QT_ESTOQUE_REPOSTO" id="638DA12A-FF02-A9E3-6E68-948DBB92C418">
-<createdBy>danie</createdBy>
-<createdTime>2024-09-01 09:53:02 UTC</createdTime>
-<ownerDesignName>melhorescompras_model</ownerDesignName>
-<engineerTo>
-<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,10,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NR_TEMPO_MEDIO_REPOSICAO" id="977221CB-0F46-9832-833A-05F1F6E43623">
-<createdBy>danie</createdBy>
-<createdTime>2024-09-01 09:53:24 UTC</createdTime>
-<ownerDesignName>melhorescompras_model</ownerDesignName>
-<engineerTo>
-<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="QT_ESTOQUE" id="F9CACC35-256A-4DC9-EC31-1C877435AB27">
-<createdBy>danie</createdBy>
-<createdTime>2024-09-01 09:53:59 UTC</createdTime>
-<ownerDesignName>melhorescompras_model</ownerDesignName>
-<engineerTo>
-<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,10,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="VL_TAXA_ROTATIVIDADE_ESTOQUE" id="4972522D-EBAE-1AF5-9CC8-C8BB9834939B">
-<createdBy>danie</createdBy>
-<createdTime>2024-09-01 09:54:11 UTC</createdTime>
-<ownerDesignName>melhorescompras_model</ownerDesignName>
-<engineerTo>
-<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,9,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="VL_ESTOQUE" id="1D90A8B8-492B-6E58-A72A-21DD08DA7266">
-<createdBy>danie</createdBy>
-<createdTime>2024-09-01 09:54:52 UTC</createdTime>
-<ownerDesignName>melhorescompras_model</ownerDesignName>
-<engineerTo>
-<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,10,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NR_VOLUME_VENDAS" id="D4324F8E-242D-F5DC-464F-5249413F0F5C">
-<createdBy>danie</createdBy>
-<createdTime>2024-09-01 09:55:07 UTC</createdTime>
-<ownerDesignName>melhorescompras_model</ownerDesignName>
-<engineerTo>
-<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="VL_IMPACTO_MONET_PROMOCOES" id="EC4C09D5-9EBD-B74E-E316-7B64FDB1F85D">
-<createdBy>danie</createdBy>
-<createdTime>2024-09-01 09:55:23 UTC</createdTime>
-<ownerDesignName>melhorescompras_model</ownerDesignName>
-<engineerTo>
-<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,10,2</ownDataTypeParameters>
-</Attribute>
 <Attribute name="SK_PEDIDO" id="2BF728B9-041C-F05D-DCC6-DAF47946599B">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 21:02:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Surrogate key utilizada para conectar a entidade PEDIDO à entidade FATO ESTOQUE.			]]></commentInRDBMS>
 <generatorID>383FB00A-2078-A992-463D-9500616A7542</generatorID>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
@@ -213,6 +116,7 @@
 <Attribute name="SK_ITEM_PEDIDO" id="A7E9567A-F850-D89B-8CD9-E73C3564CDCD">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 21:22:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Surrogate key utilizada para conectar a entidade ITEM DO PEDIDO à entidade FATO ESTOQUE.			]]></commentInRDBMS>
 <generatorID>C9ED514F-9774-4213-4AE4-D01D4AA52457</generatorID>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
@@ -228,6 +132,7 @@
 <Attribute name="SK_CLIENTE" id="D916D36D-1B6D-54E6-97E0-B91CF2AE7AE0">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-02 21:36:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Surrogate key utilizada para conectar a entidade CLIENTE à entidade FATO ESTOQUE.			]]></commentInRDBMS>
 <generatorID>4DA25E72-A1F3-FF3D-E0AF-8D783C8BAAED</generatorID>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
@@ -239,6 +144,132 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_PRODUTO" id="C11A5D87-F08A-6EBF-D814-8102A09D1717">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-03 18:15:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Surrogate key utilizada para conectar a entidade PRODUTO  à entidade FATO ESTOQUE.			]]></commentInRDBMS>
+<generatorID>92756DAE-E071-FB7B-360F-2CBDAEA59894</generatorID>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<referedAttribute>8E7F7DDE-4FCF-34F1-40BF-6DAFF2763F69</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QT_ESTOQUE_REPOSTO" id="638DA12A-FF02-A9E3-6E68-948DBB92C418">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-01 09:53:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quantidade de estoque reposto. É um atributo opcional.			]]></commentInRDBMS>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TEMPO_MEDIO_REPOSICAO" id="977221CB-0F46-9832-833A-05F1F6E43623">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-01 09:53:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indica o tempo médio de reposição. É um atributo opcional.			]]></commentInRDBMS>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QT_ESTOQUE" id="F9CACC35-256A-4DC9-EC31-1C877435AB27">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-01 09:53:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quantidade de cada produto no estoque. É um atributo opcional.			]]></commentInRDBMS>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_TAXA_ROTATIVIDADE_ESTOQUE" id="4972522D-EBAE-1AF5-9CC8-C8BB9834939B">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-01 09:54:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indica o valor da taxa de rotatividade do estoque. É um atributo opcional.			]]></commentInRDBMS>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_ESTOQUE" id="1D90A8B8-492B-6E58-A72A-21DD08DA7266">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-01 09:54:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor total do estoque para cada produto. É um atributo opcional.			]]></commentInRDBMS>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_VOLUME_VENDAS" id="D4324F8E-242D-F5DC-464F-5249413F0F5C">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-01 09:55:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indica o valor do volume de vendas para cara produto. É um atributo opcional.			]]></commentInRDBMS>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_IMPACTO_MONET_PROMOCOES" id="EC4C09D5-9EBD-B74E-E316-7B64FDB1F85D">
+<createdBy>danie</createdBy>
+<createdTime>2024-09-01 09:55:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor do impacto monetário sobre cada promoção aplicada. É um atributo opcional.			]]></commentInRDBMS>
+<ownerDesignName>melhorescompras_model</ownerDesignName>
+<engineerTo>
+<item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -255,6 +286,7 @@
 <attributeRef>C8CDE584-85E4-4A1E-1F74-4EA184EA2556</attributeRef>
 <attributeRef>E972820D-C35D-936B-7A63-105AED2B1BA6</attributeRef>
 <attributeRef>ECDDD3B5-B529-6722-F5E6-8A0A198287DA</attributeRef>
+<attributeRef>C11A5D87-F08A-6EBF-D814-8102A09D1717</attributeRef>
 <attributeRef>6EA55C6A-5F61-7F33-1898-E6B10981A1A5</attributeRef>
 <attributeRef>2BF728B9-041C-F05D-DCC6-DAF47946599B</attributeRef>
 <attributeRef>A7E9567A-F850-D89B-8CD9-E73C3564CDCD</attributeRef>

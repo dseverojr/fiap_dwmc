@@ -26,7 +26,7 @@ POLÍTICA DE BACKUP: Backup segue a rotina regular do sistema.														]]><
 <Attribute name="SK_PRODUTO" id="8E7F7DDE-4FCF-34F1-40BF-6DAFF2763F69">
 <createdBy>danie</createdBy>
 <createdTime>2024-08-30 20:38:17 UTC</createdTime>
-<commentInRDBMS><![CDATA[Chave primária que garante a unicidade dos registros na tabela. Essencial para identificar cada produto de forma exclusiva.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Cada produto possui, na entidade, um código de identificação exclusivo. Os valores são gerados automaticamente e, não possuem a possibilidade de ser alterados.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -40,7 +40,7 @@ POLÍTICA DE BACKUP: Backup segue a rotina regular do sistema.														]]><
 <Attribute name="CD_PRODUTO" id="6AA00F13-9BDC-95D3-7DAC-E39E40C3003D">
 <createdBy>danie</createdBy>
 <createdTime>2024-08-30 20:45:40 UTC</createdTime>
-<commentInRDBMS><![CDATA[identificador único do registro de estoque. É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Código com uma identificação única para cada produto. É um atributo opcional.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -49,12 +49,13 @@ POLÍTICA DE BACKUP: Backup segue a rotina regular do sistema.														]]><
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NM_PRODUTO" id="D901B9D6-D871-49C9-FC2D-3EC0928BC499">
 <createdBy>danie</createdBy>
 <createdTime>2024-08-30 20:55:16 UTC</createdTime>
-<commentInRDBMS><![CDATA[Nome do produto, utilizado para identificação e marketing.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Nome correspondente a cada produto. É um atributo opcional.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -69,7 +70,7 @@ POLÍTICA DE BACKUP: Backup segue a rotina regular do sistema.														]]><
 <Attribute name="NM_CATEGORIA_PRODUTO" id="4FA1338D-DDCE-EE4C-DC74-64B6EE180F5F">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 09:24:18 UTC</createdTime>
-<commentInRDBMS><![CDATA[Categoria à qual o produto pertence, importante para organização e análise de mercado.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Nome correspondente a cada categoria do produto. É um atributo opcional.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -84,7 +85,7 @@ POLÍTICA DE BACKUP: Backup segue a rotina regular do sistema.														]]><
 <Attribute name="VL_UNITARIO" id="9925FB2B-F1A6-DD6B-8233-23EBD39EABC9">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 09:25:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[Preço pelo qual o produto é vendido, fundamental para análises de receita e lucro.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Valor unitário, em reais, sobre cada produto.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -99,7 +100,7 @@ POLÍTICA DE BACKUP: Backup segue a rotina regular do sistema.														]]><
 <Attribute name="DT_LANCAMENTO" id="5E447D0E-4438-296D-3D05-5B085110AD7F">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 09:26:11 UTC</createdTime>
-<commentInRDBMS><![CDATA[Data em que o produto foi lançado, útil para análise de ciclos de vida de produtos.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Data do lançamento de cada produto. Possui o formato padrão de 'dd-mm-yyyy'. É um atributo opcional.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -113,7 +114,7 @@ POLÍTICA DE BACKUP: Backup segue a rotina regular do sistema.														]]><
 <Attribute name="ST_PRODUTO" id="D216B94A-31AE-C639-B2A4-F6C05D75F9E7">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 09:30:56 UTC</createdTime>
-<commentInRDBMS><![CDATA[Indica se o produto está ativo ou descontinuado, importante para a gestão de catálogo.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Indica se o produto está ativo ou descontinuado. É um atributo opcional.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -128,7 +129,7 @@ POLÍTICA DE BACKUP: Backup segue a rotina regular do sistema.														]]><
 <Attribute name="NM_TIPO_PRODUTO" id="790B76E6-0293-FF99-8967-8E7B12095F67">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 09:31:18 UTC</createdTime>
-<commentInRDBMS><![CDATA[Tipo específico ou subcategoria do produto, usado para segmentação e análise detalhada.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Nome correspondente a cada tipo do produto.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -142,7 +143,7 @@ POLÍTICA DE BACKUP: Backup segue a rotina regular do sistema.														]]><
 <Attribute name="VL_CUSTO_VENDA" id="D10D4EAF-AFDF-2305-ED9B-D98332AC99A3">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 09:33:51 UTC</createdTime>
-<commentInRDBMS><![CDATA[Custo de venda do produto, utilizado para cálculos de margem de lucro e análise financeira.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Valor do custo das vendas, em reais, sobre cada produto.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -157,6 +158,7 @@ POLÍTICA DE BACKUP: Backup segue a rotina regular do sistema.														]]><
 <Attribute name="NM_COR_PRODUTO" id="7880471E-C2F2-179E-9584-3671EAE4BFD1">
 <createdBy>danie</createdBy>
 <createdTime>2024-08-30 21:18:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome correspondente as cores de cada produto. É um atributo opcional.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -171,7 +173,7 @@ POLÍTICA DE BACKUP: Backup segue a rotina regular do sistema.														]]><
 <Attribute name="CD_FORNECEDOR" id="D2220FBE-5E20-576F-A006-1F7D550C4CFB">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 09:34:20 UTC</createdTime>
-<commentInRDBMS><![CDATA[Identificador do fornecedor.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Código com uma identificação única para cada fornecedor.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -185,7 +187,7 @@ POLÍTICA DE BACKUP: Backup segue a rotina regular do sistema.														]]><
 <Attribute name="NR_DIMENSOES_FISICAS" id="ABBE62C4-5E22-C956-8A16-E50F5ECCD342">
 <createdBy>danie</createdBy>
 <createdTime>2024-09-01 09:34:53 UTC</createdTime>
-<commentInRDBMS><![CDATA[Identificador do fornecedor do produto, necessário para relacionar com dados de fornecimento e custos.  É UM ATRIBUTO  OBRIGATÓRIO.			]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Número correspondente as dimensões físicas de cada produto.			]]></commentInRDBMS>
 <ownerDesignName>melhorescompras_model</ownerDesignName>
 <engineerTo>
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
@@ -206,6 +208,9 @@ POLÍTICA DE BACKUP: Backup segue a rotina regular do sistema.														]]><
 <item key="842E783D-68CC-2E35-702F-8CCE9322C23C" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>8E7F7DDE-4FCF-34F1-40BF-6DAFF2763F69</attributeRef>
+</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>
